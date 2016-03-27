@@ -11,7 +11,7 @@ public class InorderSuccessor {
     }
 
     Node inorderSuccessor(int val) {
-        Stack<Node> parents = new Stack<Node>();
+        Stack<Node> parents = new Stack<>();
         Node node = root;
         while(node.data != val) {
             parents.push(node);
